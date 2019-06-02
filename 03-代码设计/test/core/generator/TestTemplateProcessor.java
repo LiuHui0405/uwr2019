@@ -69,7 +69,7 @@ public class TestTemplateProcessor implements DataSourceType{
         		EasyMock.expect(DataSourceConfig.newInstance()).andReturn(dsc);  
     
 		PowerMock.replayAll(dsc);//重放所有的行为。
-     
+                                     
 		tp = new TemplateProcessor();//初始化一个待测试类（SUT）的实例
 	}
 }
